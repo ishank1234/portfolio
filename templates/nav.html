@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block body%}
+
+<nav class="navbar navbar-expand-md nav bg-light sticky-top">
+
+       <a href="#hero" class="navbar-brand ml-5">Home</a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <i class="fa fa-toggle-down fa_custom fa-2x" ></i>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navbarCollapse">
+          <div class="navbar-nav ml-auto mr-5 pl-5 pr-5  style="color:black;"">
+            <a href="#about" class="nav-item nav-link active">About</a>
+            <a href="#service" class="nav-item nav-link">Services</a>
+            <a href="#work" class="nav-item nav-link">Projects</a>
+            <a href="#certy" class="nav-item nav-link">Certifications</a>
+            <a href="#contact" class="nav-item nav-link">Contact</a>
+          </div>
+        </div>
+</nav>
+
+
+{% endblock %}

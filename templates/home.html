@@ -1,0 +1,305 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block body %}
+{% include 'nav.html' %}
+<div class="home hero" id="hero">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 head">
+        <div class="abc">
+          <h1>Ishank Chopra</h1>
+          <p>Full stack Developer| Data Sceince & AI enthusiast</p>
+        </div>
+        <div class="row">
+            <a class="btn btn-dark m-2" href="#contact">Hire Me</a>
+            <a class="btn btn-outline-dark m-2" href="#about">Explore Me</a>
+        </div>
+        <h3>{{ name }}</h3>
+      </div>
+      <div class="col-md-5 mt-5 ml-4">
+        <h3><i class="fa fa-phone mt-3" aria-hidden="true"></i> 7985676179</h3>
+        <h4><i class="fa fa-google-plus" aria-hidden="true"></i> chopra.ishank1411@gmail.com</h4>
+        <a href="#" class="btn btn-dark m-5">Download resume</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<main id="main" class="site-main">
+  <section id="about" class="site-section section-about text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+          <h2>About</h2>
+          <img src="{% static 'img/lines.svg' %}" class="img-lines" alt="lines">
+          <p>Hello! I'm Ishank Chopra, a full stuck developer | AI & Data science
+             enthusiast, and a guy slighty obsessed for code quality. I’m currently available for freelance work. I had completed my <b>Master of Computer Application</b> from <i>Kamla Nehru Institute of Technology, Sultanpur.</i></br>
+             <br>If you have a project that you want to get started or think you
+             need my help with something,
+             then get in touch. Now as fresher I am actively looking for a Job on Python profile, I have added my resume
+              for the same.</p>
+          <p></p>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+    </div>
+  </section>
+
+    <section id="service" class="site-section section-skill text-center">
+      <div class="container text-center">
+        <h3>What I do</h3>
+        <img src="{% static 'img/lines.svg' %}" class="img-lines" alt="lines">
+
+      <div class="row">
+        <div class="col-md-3">
+          <div class="skill">
+            <h4>Web development</h4>
+            <img src="{% static 'img/lines.svg' %}" class="img-lines" alt="lines">
+            <p>Technologies Expertize:</p>
+            <p>HTML/CSS, JavaScript, Bootstrap <b>Angular</b>, <b><i>Django/Flask</i></b></p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="skill">
+            <h4>Data Visualization</h4>
+            <img src="{% static 'img/lines.svg' %}" class="img-lines" alt="lines">
+            <p>for visualizing my data to get information, I uses python libraries <b>matplotlib, seaborn</b></p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="skill">
+            <h4>Data Analysis</h4>
+            <img src="{% static 'img/lines.svg' %}" class="img-lines" alt="lines">
+            <p>For analysing my data for predictive modeling, I uses python libraries such as: <b>pandas,numpy</b></p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="skill">
+            <h4>Predictive Modeling</h4>
+            <img src="{% static 'img/lines.svg' %}" class="img-lines" alt="lines">
+            <p>This is one of the my all time favourite job, I uses <b><i>scikit-learn & tensorflow</i></b> for machine & deep learning.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="skill">
+            <h4>Face Recognition Applications</h4>
+            <img src="{% static 'img/lines.svg' %}" class="img-lines" alt="lines">
+            <p>I have done projects on face recognition & varification projects,
+              With the help of deep learning frameworks such as <b>tensorflow, Keras</b>.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="skill">
+            <h4>Consultancy</h4>
+            <img src="{% static 'img/lines.svg' %}" class="img-lines" alt="lines">
+            <p>As well as providing development services, I can also help you decide strategic roadmaps via consultancy services.</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section class="site-section section-services overlay mt-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h3 class="text-center">My skills</h3>
+                        <img src="{% static 'img/lines.svg' %}" class="img-lines text-center" alt="lines">
+                    </div>
+                    <div class="col-sm-3">
+                      <ul>
+                        <li>Html/css</li>
+                        <li>JavaScript</li>
+                        <li>Bootstrap</li>
+                        <li><b>Angular</b></li>
+                      </ul>
+                    </div>
+                    <div class="col-sm-3">
+                      <ul>
+                        <li>Python</li>
+                        <li>Core Java</li>
+                        <li>C/C++</li>
+                        <li>SQL</li>
+                      </ul>
+                    </div>
+                    <div class="col-sm-3">
+                      <ul>
+                        <li>Machine Learning</li>
+                        <li>Deep learning</li>
+                        <li>Data Analytics</li>
+                        <li>Data Visualization</li>
+                      </ul>
+                    </div>
+                    <div class="col-sm-3">
+                      <ul>
+                        <li>Data Structure</li>
+                        <li>Django</li>
+                        <li>Flask</li>
+                        <li>tensorflow/keras</li>
+                      </ul>
+                    </div>
+
+                </div>
+            </div>
+      </section>
+
+    <section id="work" class="site-section">
+      <div class="container text-center">
+        <div class="row m-2">
+          <div class="col-md-12 text-center">
+            <h3 class="text-center">My recent work</h3>
+            <img src="{% static 'img/lines.svg' %}" class="img-lines text-center" alt="lines">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <img src="{% static 'img/Portfolio-1.jpg' %}" class="work_img">
+          </div>
+          <div class="col-md-6">
+            <h2>Heart Disease Predictor</h2>
+            <p class="m-4">This is machine learning based project in which the patient can chack wheather he/she can suffered from heart disease or not. The accuracy of the result predicted by this application is more than 85 percent.</p>
+            <a href="https://hardcore-stonebraker-fde8ec.netlify.app/" target="_blank" class="btn btn-primary">Explore Project</a>
+          </div>
+        </div>
+        <div class="row m-2">
+          <div class="col-md-6">
+            <img src="{% static 'img/cc.jpg' %}" class="work_img">
+          </div>
+          <div class="col-md-6">
+            <h2>Sentiment Analyser</h2>
+            <p class="m-4">This is Deep learning based project in which a model is trained on more than 5 thousand dataset with the help of tensorflow/keras to predict the sentiment on any image.</p>
+            <button class="btn btn-primary">Explore Project</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="certy" class="site-section">
+      <div class="container text-center">
+        <div class="row m-1">
+          <div class="col-md-12 text-center">
+              <h3 class="text-center">Certifications</h3>
+              <img src="{% static 'img/lines.svg' %}" class="img-lines text-center" alt="lines">
+          </div>
+        </div>
+        <div class="row responsive">
+          <table class="table">
+            <thead>
+              <th>Course Title</th>
+              <th>Platform</th>
+              <th>Certificate</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Python bootcamp for data science</td>
+                <td>Udemy</td>
+                <td><a href="https://ude.my/UC-4VJ47KNY" target="blank"><i class="fa fa-plane" aria-hidden="true"></i></td>
+              </tr>
+              <tr>
+                <td>Introduction to deep learning</td>
+                <td>Coursera</td>
+                <td><a href="https://www.coursera.org/account/accomplishments/records/82A6VTV5DUB3?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
+                  target="blank"> <i class="fa fa-plane" aria-hidden="true"></i></td>
+              </tr>
+              <tr>
+                <td>Machine learning foundation</td>
+                <td>Coursera</td>
+                <td><a href="https://www.coursera.org/account/accomplishments/records/S72LR2J6GBN9?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
+                  target="blank"><i class="fa fa-plane" aria-hidden="true"></i></td>
+              </tr>
+              <tr>
+                <td>Neural Network and Deep Learning</td>
+                <td>Coursera</td>
+                <td><a href="https://www.coursera.org/account/accomplishments/records/EYN32CPNN5Z2?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
+                   target="blank"><i class="fa fa-plane" aria-hidden="true"></i></td>
+              </tr>
+              <tr>
+                <td>Improving deep neural network: Hyperparameter tuning,Regularization</td>
+                <td>Coursera</td>
+                <td><a href="https://www.coursera.org/account/accomplishments/records/3GFXCZWJUPYP?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
+                  target="blank"><i class="fa fa-plane" aria-hidden="true"></i></td>
+              </tr>
+              <tr>
+                <td>Python Programing</td>
+                <td>HackerRank</td>
+                <td><a href="https://www.hackerrank.com/certificates/c8d7411e37b5"
+                  target="blank"><i class="fa fa-plane" aria-hidden="true"></i></td>
+              </tr>
+              <tr>
+                <td>Java Programing</td>
+                <td>HackerRank</td>
+                <td><a href="https://www.hackerrank.com/certificates/e7f78dbcfb5a" target="blank"><i class="fa fa-plane" aria-hidden="true"></i></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+    </section>
+    <section id="contact" class="site-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h3 class="text-center">Contact</h3>
+            <img src="{% static 'img/lines.svg' %}" class="img-lines text-center" alt="lines">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <h3>{{ name }}</h3>
+            <form class="form-group" method="post" action="">
+              {% csrf_token %}
+              <label>Name</label>
+              <input type="text" name="name" class="form-control" required>
+              <label>Email</label>
+              <input type="email" class="form-control" name="email" required>
+              <label>Message</label>
+              <textarea class="form-control" name="text" required></textarea>
+              <div class="text-center m-4">
+                <input type="submit" class="btn btn-primary" value="Hire Me">
+              </div>
+            </form>
+          </div>
+          <div class="col-md-4 ml-3 text-center">
+            <h5 class="text-center">Links</h5>
+            <img src="{% static 'img/lines.svg' %}" class="img-lines text-center" alt="lines">
+            <div class="box1">
+              <a href="https://www.hackerrank.com/IshankTheCodder" target="_blank" style="width:100px;" class="btn btn-primary"> <p>HackerRank <i class="fa fa-plane" aria-hidden="true"></i></p></a>
+            </div>
+            <div class="box">
+              <a href= "https://www.linkedin.com/in/ishank-chopra-3b410b17b" target="_blank" style="width:100px;" class="btn btn-primary" ><p>LinkedIn <i class="fa fa-plane" aria-hidden="true"></i></p></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+</main>
+<div class=foot>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <a class="icon facebook-bg" href="https://www.facebook.com/ishank.chopra.1" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a class="icon twitter-bg" href="https://twitter.com/IshankChopra2" target="_blank"><i class="fa fa-twitter"></i></a>
+          <a class="icon linkedin-bg" href="https://www.linkedin.com/in/ishank-chopra-3b410b17b" target="_blank"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <div class="col-sm-4 text-center">
+          <p>Developed and maintained by Ishank Chopra<p>
+        </div>
+        <div class="col-sm-4 text-right">
+          <a class="icon linkedin-bg" href="#hero"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+
+{% endblock %}
