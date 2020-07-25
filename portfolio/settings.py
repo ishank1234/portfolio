@@ -29,7 +29,7 @@ ALLOWED_HOSTS = ['*']
 
 CORS_ORIGIN_WHITELIST=[
     'http://localhost:4200',
-    'portfolio.herokuapp.com',
+    'ishank.herokuapp.com',
     '127.0.0.1',
     'https://hardcore-stonebraker-fde8ec.netlify.app',
 ]
